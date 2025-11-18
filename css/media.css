@@ -1,0 +1,354 @@
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .first-screen {
+        background-position: 60%;
+    }
+
+    .gifts-card-item__top h3, .conditions-card-item__top h3 {
+        font-size: 24px;
+    }
+
+    .gifts-cards {
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .gifts-cards__item p, .conditions-cards__item p, .conditions-cards__item li {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .nav-desktop ul {
+        font-size: 18px;
+        gap: 20px;
+    }
+
+    .gifts-cards,
+    .conditions-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .first-screen h1 {
+        font-size: 60px;
+        max-width: 600px;
+    }
+
+    .first-screen p {
+        font-size: 18px;
+    }
+
+    .gifts h2, .conditions h2, .faq h2, .contacts h2 {
+        font-size: 48px;
+    }
+
+    .gifts-card-item__top h3, .conditions-card-item__top h3 {
+        font-size: 24px;
+        max-width: 100%;
+    }
+
+    .gifts-cards__item p, .conditions-cards__item p {
+        margin-top: 0;
+        max-width: 650px;
+    }
+
+    .christmas-lama {
+        position: absolute;
+        bottom: 245%;
+        right: 5%;
+        width: 18%;
+        max-width: 130px;
+    }
+
+    .ded-moroz {
+        width: 100px;
+        top: -20%;
+    }
+
+    .decor-gifts, .decor-gifts_2  {
+        display: none;
+    }
+
+    .banner-row {
+        flex-direction: column;
+    }
+
+    footer {
+        padding-bottom: 70%;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+        margin: 0 auto;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    .toggles_row {
+        display: flex;
+        gap: 10px;
+    }
+
+    .toggle-mobile {
+        display: block;
+    }
+
+    .toggle, .toggle-mobile {
+        background: rgba(36, 36, 36, 0.3); /* твой цвет 3C2500 с прозрачностью 50% */
+        padding: 6px 12px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: 0.3s ease;
+    }
+
+    .first-screen {
+        background-position: 70%;
+    }
+
+    .first-screen h1 {
+        font-size: 48px;
+        max-width: 500px;
+    }
+
+    .first-screen p {
+        max-width: 350px;
+    }
+
+    .btn-gifts, .btn-more {
+        font-size: 18px;
+    }
+
+    .christmas-lama {
+        bottom: 245%;
+    }
+
+    .gifts-card-item__top, .conditions-card-item__top {
+        flex-direction: column-reverse;
+        align-items: baseline;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    .qr-app {
+        display: none;
+    }
+
+    .banner_left h3 {
+        text-align: center;
+    }
+
+    .banner-stores img {
+        max-width: 200px;
+    }
+
+    .banner_right img {
+        max-width: 380px;
+    }
+
+
+
+
+    footer {
+        padding-bottom: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .logo img {
+        width: 70%;
+    }
+
+    .first-screen {
+        background-image: url('../img/mobile-bg-400.png');
+        background-size: cover;      
+        background-repeat: no-repeat; 
+        overflow-x: hidden;
+    }
+
+    .gifts h2, .conditions h2 {
+        font-size: 48px;
+        font-weight: 700;
+        margin: 100px 0 30px 0;
+    }
+
+    .toggle, .toggle-mobile {
+        padding: 6px 12px;
+    }
+
+    .first-screen {
+        background-position: 75%;
+    }
+
+    .hero-buttons {
+        padding: 32px 0;
+        gap: 15px;
+    }
+
+    .first-screen h1 {
+        font-size: 28px;
+        max-width: 280px;
+    }
+
+    .first-screen p {
+        font-size: 15px;
+        max-width: 280px;
+        margin-top: 24px !important;
+    }
+
+    .btn-gifts, .btn-more {
+        font-size: 16px;
+    }
+
+    .btn-gifts svg, .btn-more svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .gifts h2, .conditions h2, .faq h2, .contacts h2, .banner h2 {
+        font-size: 24px;
+    }
+
+    .gifts-card-item__top h3, .conditions-card-item__top h3 {
+        font-size: 20px;
+        max-width: 250px;
+    }
+
+    .btn-gifts, .btn-more {
+        padding: 12px 24px;
+    }
+
+    .decor-gifts_2 {
+        display: none;
+    }
+
+    .decor-gifts {
+        bottom: 150px;
+    }
+
+    .banner {
+        background-image: url('../img/mobile-banner-bg.png');
+        background-size: cover;      
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        padding: 75px 0;
+    }
+
+    
+
+    .span-desktop {
+        display: none;
+    }
+
+    .mobile-span {
+        display: block;
+        font-size: 24px;
+        max-width: 300px;
+    }
+
+    .mobile-span span {
+        font-size: 24px;
+
+    }
+
+
+    .banner-row {
+        flex-direction: column;
+    }
+
+    .banner_top {
+        order: 2;
+    }
+
+    .banner_middle {
+        order: 1;
+    }
+
+    .banner_bottom {
+        order: 3;
+    }
+
+    .chance, .conditions-gift {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    footer {
+        padding-bottom: 200%;
+    }
+}
+
+@media (max-width: 378px) {
+
+
+    .banner_left h3 {
+        font-size: 24px;
+    }
+
+    .banner-stores img {
+        max-width: 200px;
+    }
+
+    .banner_right img {
+        max-width:340px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* h2 {
+        font-size: 18px !important;
+    } */
+
+    .first-screen h1 {
+        font-size: 20px;
+        max-width: 200px;
+    }
+
+    .first-screen p {
+        max-width: 275px;
+    }
+    p {
+        font-size: 16px !important;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .banner_right img {
+        max-width:300px;
+    }
+
+    .social-media svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer {
+        padding-bottom: 250%;
+    }
+}
