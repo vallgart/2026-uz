@@ -69,8 +69,11 @@ body {
     background: rgba(60, 37, 0, 0.5); /* твой цвет 3C2500 с прозрачностью 50% */
     backdrop-filter: blur(12px);      /* размывает фон за блоком */
     -webkit-backdrop-filter: blur(12px); /* нужно для Safari */
-    position: relative;
-    z-index: 2000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .header-row {
@@ -901,5 +904,6 @@ footer {
         padding-bottom: 250%;
     }
 }
+
 
 
