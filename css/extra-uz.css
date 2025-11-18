@@ -1,3 +1,7 @@
+.decor-gifts, decor-gifts_2 {
+    display: none;
+}
+
 :root {
     --white: #fff;
     --red: #C90003;
@@ -916,6 +920,7 @@ footer {
         padding-bottom: 250%;
     }
 }
+
 
 
 
