@@ -70,11 +70,7 @@ body {
     backdrop-filter: blur(12px);      /* размывает фон за блоком */
     -webkit-backdrop-filter: blur(12px); /* нужно для Safari */
     position: relative;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+    z-index: 2000;
 }
 
 .header-row {
@@ -727,6 +723,10 @@ footer {
         width: 70%;
     }
 
+    .ded-moroz {
+        width: 50px;
+    }
+
     .first-screen {
         background-image: url('../img/mobile-bg-400.png');
         background-size: cover;      
@@ -901,6 +901,5 @@ footer {
         padding-bottom: 250%;
     }
 }
-
 
 
