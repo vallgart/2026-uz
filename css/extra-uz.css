@@ -567,6 +567,7 @@ footer {
     .gifts-cards__item p, .conditions-cards__item p, .conditions-cards__item li {
         font-size: 18px;
         margin-top: 10px;
+        max-width: 400px;
     }
 }
 
@@ -920,6 +921,7 @@ footer {
         padding-bottom: 250%;
     }
 }
+
 
 
 
